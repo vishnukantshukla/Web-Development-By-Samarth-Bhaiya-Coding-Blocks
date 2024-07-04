@@ -1,0 +1,47 @@
+/* #abs{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+} */
+
+/* Relative units */
+
+/* yeh direct parents article se lo */
+
+/* % */
+/* .a1 p{  
+    font-size: 50%;
+}
+
+
+/* em */
+/* .a1{
+    font-size: 200px;
+}
+
+.fs{
+    font-size: 20px;
+}
+ul li{
+    font-size: 2em;
+} */ */
+
+/* this is snowBall effect*/
+
+
+
+
+/* rem unit   */
+/* .fs{
+    font-size:120px;
+} */
+/* 
+ul li{
+    font-size: 2rem;
+} */
+
+#pyara{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(94, 50, 205);
+}

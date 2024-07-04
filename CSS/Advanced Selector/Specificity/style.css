@@ -1,0 +1,21 @@
+/* id */
+#vishnu{
+    color: red;
+}
+.vishnu1{
+    color: greenyellow;
+}
+div{
+    color: rgb(255, 0, 179);
+}
+ 
+ol{
+    font-size: 30px;
+    color: cyan;
+    border: 2px solid black;
+}
+
+ol>li{
+    color: red;
+    font-size: 60px;
+}

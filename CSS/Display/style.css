@@ -1,0 +1,37 @@
+/* display: inline;    yeh inline ke case me kaam nhi karega  kucch ke sath chalta hai box model */
+/* h3{
+    
+    width: 400px;
+    height: 300px;
+    background-color: green;
+} */
+
+h3{
+    
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
+
+
+/* Display : inline-block -> yeh box model ki property bhi use krta hai and sayh me line bhi rakhta hai */
+span{
+    
+    width: 400px;
+    height: 300px;
+    background-color: rgb(97, 203, 97);
+    display: inline-block;  
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+div:nth-of-type(2){
+    /*      yesme jagah hi nhi milege (mtlb space free ho jyega jha pe element tha)*/
+    /* display: none; */
+    /* visibility: hidden;  yeh jagah lenge paar invisible rahegaa */
+}

@@ -1,0 +1,15 @@
+:root{
+    --bg-color:#701acb; /* yeh aak variable ban gya*/
+
+    --bg-color-yellow:yellow;
+
+    --font-Size-bada:16px;
+
+}
+
+article ,h2 , h3{
+    background-color: var(--bg-color-yellow,--bg-color);  /* yah pe saare varible aate hai */
+    font-size: var(--font-Size-bada);
+   
+}
+ 

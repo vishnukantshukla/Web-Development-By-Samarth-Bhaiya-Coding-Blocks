@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inputs</h1>
+    <fieldset>
+        <legend>Personal BioData</legend>
+        <label for="name">Name :</label>
+    <input type="text" id="name">
+    <br><br>
+
+    <label for="password">Password :</label>
+    <input autofocuss type="password" id="password"> <!-- autofocus is used to when refresh any page it will bidefault active the particular box-->
+    <br><br>
+   
+    <label for="email">Email :</label>
+    <input disabled type="email" id="email">  <!-- disabled is a boolean attribute which is used to disable the box bidefault it is false but when we write it into the input tag it will become true-->
+    <br><br>
+
+    <label for="date">Date :</label>
+    <input type="date" id="date">
+    <br><br>
+
+    <label for="color">Color :</label>
+    <input type="color" id="color">
+    <br><br>
+
+    <label for="datetime">Datetime :</label>
+    <input type="datetime-local" id="datetime">
+    <br><br>
+    <label for="file">File :</label>
+    <input type="file" id="file">
+    <br><br>
+
+    <label for="tel">Telephone :</label>
+    <input type="tel" id="tel" maxlength="10">
+    <br><br>
+
+    <label for="number">Number :</label>
+    <input type="number" id="number" min="10" max="30" max maxlength="10">
+    <br><br>
+
+    <label for="checkbox">checkbox :</label>
+    <input type="checkbox" id="checkbox">
+    <br><br>
+    Gender:
+    <br>
+    <label for="radio">male:</label>
+    <input type="radio" name="Gender" id="radio">
+    <br><br>
+    <label for="radio">female:</label>
+    <input type="radio" name="Gender" id="radio">
+    <br><br>
+    <label for="radio">other:</label>
+    <input type="radio" name="Gender" id="radio">
+    <br><br>
+    
+    <textarea name="" id="" cols="100" rows="10"></textarea>
+    <br><br>
+
+    <select name="" id="">
+        <option>January</option>
+        <option>February</option>
+        <option selected>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+    </select>
+    <button type="submit">Submit</button>
+    </fieldset>
+    
+</body>
+</html>

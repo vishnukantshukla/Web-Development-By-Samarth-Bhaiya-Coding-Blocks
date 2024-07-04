@@ -1,0 +1,21 @@
+
+
+.image{
+    height: 90vh;
+    width: 70vw;
+    border: 3px solid;
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.H8EHVHhQTwX0WBcnPJTM4wHaEK&pid=Api&P=0&h=180');
+    /* background-repeat:no-repeat;*/
+    background-size: cover; 
+    /* background-size: 60% 50%; 
+    */
+    background-position: center;
+    /* opacity:0.1;  */
+    /* opacity has range between 0 to 1 */
+    filter: grayscale(0%);
+}
+
+.image:hover{
+    filter: grayscale(90%);
+    cursor: pointer;
+}

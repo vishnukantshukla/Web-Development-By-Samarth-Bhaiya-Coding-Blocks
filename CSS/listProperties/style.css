@@ -1,0 +1,9 @@
+li:first-child{
+    color: red;
+    /* list-style-type: disc; */
+    /* list-style-type: square; */
+    /* list-style-type:'\1F499' ; */
+    border: 2px solid black;
+    /* list-style-image: url(https://plus.unsplash.com/premium_photo-1676977395734-b9a8de444073?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    list-style: '\1f440' inside;
+}

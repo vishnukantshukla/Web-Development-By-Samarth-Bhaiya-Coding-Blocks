@@ -1,0 +1,70 @@
+/* Hover */
+
+/* h1{
+    background-color: greenyellow;
+}
+
+h1:hover{
+    background-color: blue;
+}
+
+input:hover{
+    background-color: coral;
+    border: 2px dotted;
+} */
+
+
+/* Active pseduclasses */
+
+/* a[href="http://wikipedia.com"]:active{
+    color: red;
+} */
+
+
+/* a[href="http://reddit.com"]:active{
+    color: red;
+} */
+
+
+/* visites pseduclasses  */
+
+
+/* a[href="http://reddit.com"]:visited{
+    color: rgb(0, 34, 255);
+}  */
+
+
+/* Focus pseduclasses */
+/* input{
+    background-color: yellow;
+}
+
+input:hover{
+    background-color: gray;
+}
+
+input:focus{
+    background-color: aquamarine;
+} */
+
+
+/* nth-of-type */
+/* 
+li:nth-of-type(odd){
+    color: red;
+}
+li:nth-of-type(even){
+    color: green;
+}
+
+li:nth-of-type(6){
+    color: blue;
+}
+
+li:last-child{
+    color: aqua;
+} */
+
+li:nth-of-type(3n+6){
+    color: red;
+}

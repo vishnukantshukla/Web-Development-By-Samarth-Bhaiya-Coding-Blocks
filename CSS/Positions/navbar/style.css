@@ -1,0 +1,40 @@
+#nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(37, 76, 204);
+    top: 10px;
+}
+#nav div ul{
+    
+    display: inline-block;
+    font-size: 30px;
+}
+
+#nav>div{
+    margin-left: 450px;
+}
+#nav div ul:nth-of-type(5){
+    margin-left: 300px;
+}
+
+main .main{
+    font-size: 20px;
+}
+main div{
+    margin-top: 170px;
+    position: sticky;
+    height: 600px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(37, 76, 204);
+    bottom: 0px;
+}
+footer div ul{
+    
+    display: inline-block;
+    font-size: 30px;
+}
+

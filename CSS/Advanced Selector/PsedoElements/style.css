@@ -1,0 +1,41 @@
+div::first-letter{
+    font-size: 100px;
+    color: red;
+}
+p::first-line{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* span pe effect nhi aayega koyki yeh inline elements hai */
+
+/* span::first-letter{
+    font-size: 100px;
+    color: green;
+} */
+
+
+/* yeh bhi kaam  nhi karega */
+/* a[href="http://google.com"]::first-letter{
+    font-size: 100px;
+    color: red;
+} */
+
+
+
+/* yeh kisi ke content aage after or before add kar dega */
+a[href="http://google.com"]::after{
+    content: "Hello this side is vishnukant shukla";
+}
+
+a[href="http://google.com"]::before{
+    content: "Hello this side is vishnukant shukla";
+}
+
+a[href="http://google.com"]::before{
+   content: '\1F4F1';
+   font-size: 50px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+section div p{    
+    color: blueviolet;
+}
+/* yesme p access karega section ki property because p is descendants of section  */
+
+/* agar kina bhi level nicche chale jaye to  bo parents ki property access karega */
+
+/* section  p{    
+    color: blueviolet;
+} */
+
+section article p {
+    color: red;
+}

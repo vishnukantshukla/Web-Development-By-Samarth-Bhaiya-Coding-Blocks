@@ -1,0 +1,52 @@
+
+/* hexadecimal format to write a color */
+
+div{
+    width: 200px;
+    height: 200px;
+    border:3px solid ;
+}
+/* div:nth-of-type(1){
+    background-color: #44a923;      /*  first two digits = red ,  second two digit = green , and last two digit = blue */
+
+  /*  ham yah pe ham opacity ko inctrase and decrase kar skta hu
+    by adding two digits to hexadecimal numsber(like #44a92300 , #44a92366 , #44a923ff) 
+
+}
+div:nth-of-type(2){
+    background-color: #9FF6F9;
+}
+div:nth-of-type(3){
+    background-color: #ac1122;
+} */
+
+
+/* rgb format of writing color */
+
+/* 
+div:nth-of-type(1){
+    background-color: rgb(211, 33, 24);
+
+
+
+}
+div:nth-of-type(2){
+    background-color: rgb(22,211, 44);
+}
+div:nth-of-type(3){
+    background-color: rgb(22, 44, 255);
+} */
+
+
+/* rgba  format of writing the color */
+
+
+div:nth-of-type(1){
+    background-color: rgba(211, 33, 24,0.9);
+}
+div:nth-of-type(2){ 
+    background-color: rgba(22,211, 44,0.1); /* opacity jyada hai yees case*/
+}
+div:nth-of-type(3){
+    background-color: rgba(22, 44, 255,0.9);  /* opacity jyda hai yees case me */
+} 

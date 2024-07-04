@@ -1,0 +1,49 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.box:hover{
+    background-color: blue;
+    height: 200px;
+    animation-name: increaseHeight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes increaseHeight {
+    /* from{
+        height:100px;
+    }
+    /* to{
+        height: 400px;
+        background-color: blueviolet;
+
+        ketne bhi to laga do koye fark nhi padta bo from to direct last to tak jayega
+    } */
+    /* to{
+        height: 800px;
+        background-color: brown;
+    } */
+
+    0%{
+        height:100px;
+    }
+
+    25%{
+        height: 300px;
+        background-color: chartreuse;
+    }
+
+    100%{
+        height: 200px;
+        background-color: brown;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+section{
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* ham screen,print,all */
+ @media  screen and (max-width : 810px) {
+    h2{
+        font-size: 20px;
+        color: red;
+    }
+   
+} 
+/* landscape --> width  is greater then height */
+/* @media all and (orientation : landscape){
+ h2{
+    color: chartreuse;
+ }
+} */
+
+/* portrait -> width is smaller then height */
+@media all and (orientation : portrait){
+    h2{
+       color: rgb(254, 255, 192);
+    }
+   }
+
+
+@media all and (orientation : landscape),(min-width:600px){
+    h2{
+       color: rgb(169, 15, 15);
+    }
+   }

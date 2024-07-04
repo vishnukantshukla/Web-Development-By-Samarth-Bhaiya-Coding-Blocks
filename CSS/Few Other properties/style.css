@@ -1,0 +1,21 @@
+/* p{
+    white-space: nowrap;  /*  we can not do this yeh wrap nhii karega and view port se bhar le jayega*/
+    /* overflow: hidden;   yeh content ko hi hide kar dega */
+
+    /* overflow: scroll; */
+    /* text-overflow: ellipsis; */
+    /* text-overflow: clip; */
+          
+
+/* } */ 
+
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}

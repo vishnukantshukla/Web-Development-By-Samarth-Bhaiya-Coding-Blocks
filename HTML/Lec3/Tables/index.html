@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin: relative;
+            color: brown;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+
+    <table border="5" cellspacing="20" cellpadding="20" bgcolor="pink" align="center" >
+        <thead>
+            <tr>
+                <th>Periods/Days</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Maths</td>   <!---- rowspan and colspan is uded to combine two rows--->
+                <td>HTML</td>
+                <td>Science</td>
+                <td>Chemistry</td>
+                <td>Hindi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <!-- <td>Maths</td> -->
+                <td>Science</td>
+                <td>Chemistry</td>
+                <td>Hindi</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Science</td>
+                <td colspan="2">HTML</td>
+                <!-- <td>Maths</td> -->
+                <td>Chemistry</td>
+                <td>Hindi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Maths</td>
+                <td>HTML</td>
+                <td>Chemistry</td>
+                <td>Science</td>
+                <td>Hindi</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>HTML</td>
+                <td>Chemistry</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="blue" >
+            <th colspan="6">Time table for 10th Standard</th>
+        </tfoot>
+    </table>
+</body>
+</html>

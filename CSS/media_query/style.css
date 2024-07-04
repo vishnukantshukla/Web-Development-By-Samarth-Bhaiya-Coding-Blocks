@@ -1,0 +1,47 @@
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+} */
+
+
+/* jaab ham printer se print karaye gye taab bo uska color red ho jayege */
+/* @media print {
+    body{
+        background-color: red;
+    }
+} */
+
+/* @media screen and (max-width:800px){
+    body{
+        background-color: yellow;
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.Q5m1-CoQwomRVPib5x16zwHaEK&pid=Api&P=0&h=180");
+    }
+} */
+/* @media screen and (min-width:200px) {
+    body{
+        background-color: brown;
+      
+    }
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 90vw;
+    height: 90vh;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px ;
+}
+
+.item{
+    background-color: rgb(128, 7, 158);
+    border: 2px solid black;
+}

@@ -1,0 +1,22 @@
+/* Child Siblings */
+
+/* section > div > p{
+    color: blue;
+} */
+
+/*  adjacent siblings */
+
+/* article + section{
+    background-color: rgb(255, 251, 0);
+} */
+
+/* section+article{
+    background-color: green;
+} */
+
+
+/* General siblings  */
+
+section ~ article {
+    color: blue;
+}
