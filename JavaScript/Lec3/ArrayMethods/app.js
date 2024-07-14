@@ -76,4 +76,60 @@ console.log(arr.splice(3,2,'vishnu','shukla',300))
 console.log(arr);
 
 
+let url = 'http://google.com/search/do/best/color/black';
 
+let ans = url.split('/');
+
+console.log(ans);   //it return an array
+
+
+// join -> we can do this in both string and array both (it is non destructive method)
+
+let ans5= ans.join('/');
+console.log(ans5);
+
+// concat -> it is non destructive method
+let arr1 =[10,20,30,40,50,60,70,80];
+let arr2=['Vishnu','kant','shukla'];
+
+
+console.log(arr1.concat(arr2));
+
+let str="Vishnukant";
+let str1="Shukla";
+
+console.log(str.concat(str1));
+
+// Note-> concat is a non-destructive method and it is applicable for array and string..
+
+// includes => it returns the boolean value;
+
+let arr3= ['vishnu','shukla','ji'];
+console.log(arr3.includes('shukla'));  // it will return true or false , if the value is present in array then it will return true, Otherwise it return the value
+
+let str2="Vishnu";
+let str3="shukla";
+
+console.log(str2.includes('Vi'));
+
+// indexOf
+
+let arr4= ['vishnu','shukla','ji'];
+console.log(arr4.indexOf('shukla')); //if the element is present in array then it will return index of that element  otherwise it will return -1;
+
+
+
+let str4="Vishnu";
+let str5="shukla";
+
+console.log(str4.indexOf('u'));
+//if the element is present in string then it will return index of that element  otherwise it will return -1;
+
+
+// reverse
+
+// let str6="vishnu";
+// console.log(str6.reverse());  // it is not applicable for string
+
+let arr6= ['vishnu','shukla','ji'];
+console.log(arr6.reverse());
