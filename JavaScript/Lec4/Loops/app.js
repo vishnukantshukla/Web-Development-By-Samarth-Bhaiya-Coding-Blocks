@@ -42,3 +42,4 @@ let arr= ['vishnu','sam','shukla','jay'];
 for(let item of arr){
     console.log(item);
 }
+

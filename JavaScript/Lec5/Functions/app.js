@@ -84,4 +84,15 @@ function sum6(num1,num2=40){
     console.log(num1); 
     console.log(num2);
 }
-console.log(sum5(20,60));
+console.log(sum6(20,60));
+
+
+// ===================================================
+
+function sum7(num1=40,num2){  
+    console.log(num1); 
+    console.log(num2);
+}
+console.log(sum7(20));  // 20 wil overwrite the num1(i.e 40 will convert to 20);
+
+
