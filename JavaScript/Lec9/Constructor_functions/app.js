@@ -36,7 +36,7 @@ console.log(user6.description());
 
 // Aab description function is same of all user instead of repeating ham User ke prototype(parent pe bhej dege ) jisse hame usse directly access kar ske
 
-function user7(user,email){  // yeska prototype is prototype created by me (hamne khud user ko generate kiya hai)
+function user7(user,email){  // yeska prototype is prototype created by me (hamne khud user ko generate kiya hai i.e user7 is a prototype)
     this.username = user,
     this.email=email
     
@@ -44,7 +44,7 @@ function user7(user,email){  // yeska prototype is prototype created by me (hamn
 
 // Hamne apna khud ka prototype (User banaya hai)
 
-user7.prototype.description=function(){  // yesse hamne apne prototype ke anadar khud add kar diya hai
+user7.prototype.description=function(){  // yesse hamne apne prototype ke anadar khud add kar diya hai (yeh yesliyea kiya koyki yeh haar object me repeat kar raha tha)
     return  `my name is ${this.username}`
 }
 
