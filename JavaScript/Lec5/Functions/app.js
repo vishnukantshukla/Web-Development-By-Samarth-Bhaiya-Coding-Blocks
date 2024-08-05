@@ -55,7 +55,7 @@ function sum4(num1,num2){
 }
 console.log(sum4(20)); //yeh undefined dega because yees case me function se kucch return nhi hua hai
 
-// Output - 30 , undefined , undefined
+// Output - 20 , undefined , undefined
 
 // =================================================
 

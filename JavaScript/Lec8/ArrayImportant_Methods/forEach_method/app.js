@@ -6,6 +6,7 @@ students.forEach(function(val){  //val(kucch bhi de skte hai Ex- vishnu,item,val
     console.log(val);
 })
 
+console.log(students);
 
 let fruits = ["apple","mango","banana","orange","pineapple"];
 // iterator basically point out 1 by  1 all the element of array
