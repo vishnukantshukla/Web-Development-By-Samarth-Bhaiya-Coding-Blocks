@@ -1,1 +1,3 @@
-async 
+new function(){
+
+}
