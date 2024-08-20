@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Daily Note Taking App</h1>
+    <h1 id="heading">My Daily Note Taking App</h1>
 
-    <input type="text" name="" id="title" placeholder="Write your Task">
+    <div id="main-div">
+        <input type="text" name="" id="title" placeholder="Write your Task">
+        <br><br>
+        <button id="add-btn">Add TASK</button>
 
-    <button id="add-btn">Add TASK</button>
+        <!-- appending your list item -->
+        <ul id="list">
 
-    <!-- appending your list item -->
-    <ul id="list">
+        </ul>
+    </div>
 
-    </ul>
+    
     <script src="app.js"></script>
 </body>
 </html>

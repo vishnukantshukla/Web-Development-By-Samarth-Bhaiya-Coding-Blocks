@@ -22,5 +22,16 @@ addButtonEle.addEventListener('click',function(event){
     // newly created li hai usse append/add karna
     
     listEle.appendChild(li);
+
+    // clear krdo apne input ko
+
+    titleEle.value='';
+
+    // remove the li after clicking on the li
+
+    li.addEventListener('click',function(){
+        li.remove();
+    })
+
 })
 
