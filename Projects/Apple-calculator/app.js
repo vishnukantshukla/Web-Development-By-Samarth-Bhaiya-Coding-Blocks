@@ -2,7 +2,6 @@ let buttons = document.querySelectorAll('button');
 // yeh array dega koyki saare button ko click kar skte hai
 let input = document.querySelector('input');
 
-
 for(let button of buttons){
     button.addEventListener('click',function(event){
         let btnText = event.target.innerText;
@@ -14,7 +13,6 @@ for(let button of buttons){
             try{
                 let result=eval(input.value);  // yeh eval method hota hai to Html ke anadar mathematical calculation perform karke de deta hai
                 input.value=result;
-               
             }
             catch(e){
                 input.value='Invalid syntax';
@@ -25,6 +23,13 @@ for(let button of buttons){
             input.value+=btnText; 
         }
         
-
     })
 }
+
+
+// setInterval ki help se after 10 sec input ko Empty se set kar dege
+
+/* setInterval(function(){
+        input.value='';
+    },10000);
+*/
