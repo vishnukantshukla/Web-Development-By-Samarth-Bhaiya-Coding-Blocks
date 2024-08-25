@@ -1,7 +1,7 @@
 let buttons = document.querySelectorAll('button');
 // yeh array dega koyki saare button ko click kar skte hai
 let input = document.querySelector('input');
-
+let intervalId;
 for(let button of buttons){
     button.addEventListener('click',function(event){
         let btnText = event.target.innerText;
@@ -17,6 +17,10 @@ for(let button of buttons){
             catch(e){
                 input.value='Invalid syntax';
             }
+            intervalId=setInterval(() => {
+                input.value='';
+                clearInterval(intervalId);
+            }, 3000);
             
         }
         else{
