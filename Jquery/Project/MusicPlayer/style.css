@@ -1,3 +1,6 @@
+*{
+    background-color: rgba(23, 101, 166);
+}
 button{
     border: none;
     background-color: none;
@@ -22,10 +25,24 @@ i{
     height: 400px;
     margin: 30px auto;
     text-align: center;
+    
 }
 #play-section{
     position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
+}
+
+.song-item{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 60%;
+}
+
+.song-item:hover{
+    background-color: grey;
 }
