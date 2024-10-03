@@ -10,7 +10,7 @@ fetch('https://api.tvmaze.com/search/shows?q=girls')
         
         
     })
-    .then(function(data){  // agar yeh .json resolve hoga to yeh kucch data se resolve hoga
+    .then(function(data){  // agar yeh .json resolve hoga to yeh kucch data se resolve hoga and yeh .json ko resolve karega
 
         console.log(data);
         
