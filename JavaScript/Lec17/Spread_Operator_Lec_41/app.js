@@ -35,5 +35,17 @@ delete obj.m; // delete object.property(method)
 console.log(obj);
 
 
-// why we use spread
+// why we use spread OPerator ?
+console.log(Math.min(0,1,2,3,4,5,6,7,8,9));
+console.log(Math.max(0,1,2,3,4,5,6,7,8,9));
+
+let arr5 = [0,1,2,3,4,5,6,7,8,9];
+// console.log(Math.min(arr5)); // aase ham directly minimum nhi milega for that we are using spread Operator
+
+console.log(Math.min(...arr5));
+console.log(Math.max(...arr5));
+
+
+
+
 
