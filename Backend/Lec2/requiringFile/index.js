@@ -20,5 +20,28 @@ console.log(ans2);
 // module.exports = {};  // by default empty object
 
 
-module.exports= {pi,ans1,ans2};  // yah pe hamne by default empty object ko overwrite kar diya hai
+// module.exports= {pi,ans1,ans2};  // yah pe hamne by default empty object ko overwrite kar diya hai  
 
+// why module export not this be a key-value pair ?
+
+// Ans
+//  module.exports = {
+//     pi : pi,   //  --> pi
+//     ans1 : ans1, // --> ans1
+//     ans2 : ans2  // --> ans2
+
+//  }
+
+ // since key and value are same to ham single element likh kar kaam chala skte hai i.e pi:pi -> pi
+
+
+//  so finaly ham likh skte hai
+
+module.exports = {
+    pii:pi,
+    ans1,
+    ans2,
+
+ }
+
+// obj = key : value
